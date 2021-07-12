@@ -15,6 +15,7 @@ PoC for Image processing in cloud
 2. Search for ‘Google Drive API’, select the entry, and click ‘Enable’.
 3. Select ‘Credentials’ from the left menu, click ‘Create Credentials’, select ‘OAuth client ID’.
 4. Now, the product name and consent screen need to be set -> click ‘Configure consent screen’ and follow the instructions. Once finished:
+
        a. Select ‘Application type’ to be Web application.
        b. Enter an appropriate name.
        c. Input http://localhost:8080 for ‘Authorized JavaScript origins’.
