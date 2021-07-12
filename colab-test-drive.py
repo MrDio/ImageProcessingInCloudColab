@@ -4,6 +4,8 @@ import pydrive.files
 import time
 import cv2
 
+inFolderID = '1yvTHEjS6sCHFEtqnpbCgkvm3d8L8nwVN'
+
 def downloadAndSave(img_name):
     while True:
         try:
@@ -19,7 +21,7 @@ def downloadAndSave(img_name):
 
 def uploadAndPredict(img_name):
     # Read file and set it as a content of this instance.
-    newFile = drive.CreateFile({'parents': [{'id': '1yvTHEjS6sCHFEtqnpbCgkvm3d8L8nwVN'}]})
+    newFile = drive.CreateFile({'parents': [{'id': inFolderID}]})
     newFile.SetContentFile(img_name)
     newFile.Upload() # Upload the file.
 
