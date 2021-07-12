@@ -9,6 +9,7 @@ PoC for Image processing in cloud
 1. clone repository
 2. create a virtual environement `virtualenv --python=python3.6 venv/`
 3. start virtual environment `source venv/bin/activate`
+4. Install pyhton dependencies `pip install requirements.txt`
 
 ### Setup connection to Google API
 1. Go to APIs Console and make your own project.
@@ -30,7 +31,10 @@ PoC for Image processing in cloud
   /drive/MyDrive/Img
   /drive/MyDrive/Img/in
   /drive/MyDrive/Img/out
+  3. Open the local py file `colab-test-drive.py``and change the `inFolderID` with the folder-id you can see in your browser, when you open the folder Img/in in our drive.
+  4. Save the py file.
   2. With this folderstructure you can easily delete the folder and control the traffic up/downloads
+       
   
 
 ### Cloud (Google Colab)
